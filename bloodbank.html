@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="img/favicon.ico" rel="icon">
+
+<!-- Google Web Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Icon Font Stylesheet -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- Libraries Stylesheet -->
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+<!-- Customized Bootstrap Stylesheet -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Template Stylesheet -->
+<link href="css/style.css" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEALTH-HUB</title>
+    <div class="container-fluid sticky-top bg-white shadow-sm mb-5">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-uppercase text-dark"><i class="fa fa-clinic-medical me-2"></i>HEALTH-HUB</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link active">Service</a>
+                        <a href="price.html" class="nav-item nav-link">Pricing</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                                <a href="detail.html" class="dropdown-item">Timetable</a>
+                                <a href="team.html" class="dropdown-item">The Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="appointment.html" class="dropdown-item">Appointment</a>
+                                <a href="search.html" class="dropdown-item">Search</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="ms-5">
+                        <a href="bloodbank.html" class="btn btn-dark square-pill py-2 px-4"> Blood-bank</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('img/bb background.png') no-repeat center center/cover;
+            color: #333;
+        }
+        
+        .hero {
+            padding: 50px 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .stats-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .stat-box {
+            width: 250px;
+            padding: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .green-box {
+            background-color: green;
+        }
+        
+        .blue-box {
+            background-color: blue;
+        }
+        
+        .red-box {
+            background-color: lightcoral;
+        }
+        
+        .orange-box {
+            background-color: orange;
+        }
+        
+        .table-section {
+            padding: 30px 20px;
+            background: rgba(255, 255, 255, 0.9);
+            margin: 20px;
+            border-radius: 10px;
+            border: 2px solid black;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .table-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        
+        th,
+        td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f4f4f4;
+        }
+        
+        .highlight {
+            background-color: #eef;
+        }
+        
+        @media (max-width: 768px) {
+            .stat-box {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+        
+        footer {
+            position: relative;
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            font-size: 0.9rem;
+            overflow: hidden;
+            height: 80px;
+        }
+        
+        .footer-quotes {
+            display: flex;
+            position: absolute;
+            width: 100%;
+            white-space: nowrap;
+            animation: scrollQuotesHorizontal 50s linear infinite;
+        }
+        
+        @keyframes scrollQuotesHorizontal {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        
+        .footer-quotes p {
+            margin: 0;
+            padding: 0 50px;
+            line-height: 50px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        <h1>Welcome to Blood Bank of HEALTH-HUB</h1>
+        <div class="stats-container">
+            <div class="stat-box green-box">Blood Units Collected
+                <p>497101</p>
+            </div>
+            <div class="stat-box blue-box">Blood Units Issued (2024)
+                <p>422363</p>
+            </div>
+            <div class="stat-box red-box">Camps Held (2024)
+                <p>5853</p>
+            </div>
+            <div class="stat-box orange-box">Active E-Blood Centers
+                <p>62</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="table-section">
+        <h2>Availability of Blood Stock</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Blood Type</th>
+                    <th>Available Units</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="highlight">
+                    <td>A+</td>
+                    <td>120</td>
+                    <td>2024-12-22</td>
+                </tr>
+                <tr>
+                    <td>B+</td>
+                    <td>80</td>
+                    <td>2024-12-21</td>
+                </tr>
+                <tr class="highlight">
+                    <td>O+</td>
+                    <td>150</td>
+                    <td>2024-12-22</td>
+                </tr>
+                <tr>
+                    <td>AB+</td>
+                    <td>60</td>
+                    <td>2024-12-21</td>
+                </tr>
+                </tr>
+                <tr class="highlight">
+                    <td>A-</td>
+                    <td>50</td>
+                    <td>2024-12-22</td>
+                </tr>
+                <tr>
+                    <td>B-</td>
+                    <td>40</td>
+                    <td>2024-12-19</td>
+                </tr>
+                <tr class="highlight">
+                    <td>O-</td>
+                    <td>30</td>
+                    <td>2024-12-20</td>
+                </tr>
+                <tr>
+                    <td>AB-</td>
+                    <td>25</td>
+                    <td>2024-12-19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <div class="footer-quotes">
+            <p>"MOTHERS'S TEARS CAN NOT SAVE HER CHILD'S LIFE BUT YOUR BLOOD CAN "</p>
+            <p>"YOUR LITTLE EFFORT CAN GIVE OTHERS , SECOND CHANCE TO LIVE LIFE "</p>
+            <p>"YOU DON'T NEED TO BE A DOCTOR ,TO BE A HERO,JUST DONATE YOUR BLOOD"</p>
+            <P>"BLOOD DONATION WILL COST YOU NOTHING, BUT IT WILL SAVE A LIFE "</P>
+            <P>"A SINGLE DROP OF BLOOD CAN MAKE A HUGE CHANGE "</P>
+        </div>
+    </footer>
+
+    <script>
+        // Add JavaScript for dynamic updates if needed
+        console.log('E-Blood Bank is loaded!');
+    </script>
+</body>
+
+</html>
