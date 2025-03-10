@@ -32,30 +32,30 @@ Health-Hub is an all-in-one healthcare management website that bridges the gap b
 # 🛠 Tech Stack
 
 Frontend:
-HTML , CSS & JS
+- HTML , CSS & JS
 
 Other Tools:
-Git & GitHub
+- Git & GitHub
 
 host:
-Netliify
+- Netliify
 
 
 # 🚀 Usage
 
-Sign up as a patient .
+- Sign up as a patient .
 
-Choose your doctors .
+- Choose your doctors .
 
-See the timetable and schedule of that doctors .
+- See the timetable and schedule of that doctors .
 
-Book or manage appointments .
+- Book or manage appointments .
 
-Access healthcare packages .
+- Access healthcare packages .
 
-Browse health blogs and resources .
+- Browse health blogs and resources .
 
-Blood bank information.
+- Blood bank information.
 
 
 
@@ -88,10 +88,10 @@ Log-in page
 
 👤 Rashmiranjan shaw
 
-LinkedIn: [Rashmiranjan shaw](https://www.linkedin.com/in/rashmiranjan-shaw-8333a532a/)
+- LinkedIn: [Rashmiranjan shaw](https://www.linkedin.com/in/rashmiranjan-shaw-8333a532a/)
 
-GitHub: [Rashmiranjan07](https://github.com/Rashmiranjan07)
+- GitHub: [Rashmiranjan07](https://github.com/Rashmiranjan07)
 
-Email: heyyrashmiranjan02@gmail.com
+- Email: heyyrashmiranjan02@gmail.com
 
-Project Link: [Health-Hub](https://dancing-sprinkles-1703e2.netlify.app/)
+- Project Link: [Health-Hub](https://dancing-sprinkles-1703e2.netlify.app/)
