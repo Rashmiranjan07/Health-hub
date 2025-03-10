@@ -44,11 +44,17 @@ Netliify
 # 🚀 Usage
 
 Sign up as a patient .
+
 Choose your doctors .
+
 See the timetable and schedule of that doctors .
+
 Book or manage appointments .
+
 Access healthcare packages .
+
 Browse health blogs and resources .
+
 Blood bank information.
 
 
