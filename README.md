@@ -82,10 +82,10 @@ Log-in page
 
 👤 Rashmiranjan shaw
 
-LinkedIn: 
+LinkedIn: [Rashmiranjan shaw](https://www.linkedin.com/in/rashmiranjan-shaw-8333a532a/)
 
-GitHub: https://github.com/Rashmiranjan07
+GitHub: [Rashmiranjan07](https://github.com/Rashmiranjan07)
 
 Email: heyyrashmiranjan02@gmail.com
 
-Project Link: https://github.com/yourusername/health-hub
+Project Link: [Health-Hub](https://dancing-sprinkles-1703e2.netlify.app/)
