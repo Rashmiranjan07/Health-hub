@@ -1,28 +1,35 @@
-🏥 Health-Hub
+# 🏥Health-Hub
 
 A modern, user-friendly healthcare website aims to enhance hospital visit experiences by allowing patients to view doctors' schedules, book appointments, see blood bank services, and consult doctors . The platform also enables patients to see feedback and reviews, improving healthcare accessibility and efficiency with manage time.
 
 
-🩺 About
+# 🩺 About
 
 Health-Hub is an all-in-one healthcare management website that bridges the gap between patients and healthcare providers. It offers streamlined appointment booking, knowing timetable and scheduling of the doctors , basic information about the hospital ,qualification of doctots , blood bank information , all about a briefing of digitally expressed hospital . Health-Hub aims to enhance the overall healthcare experience by embracing digital transformation in the healthcare industry with lack of timing .
 
 
-🌟 Features
+# 🌟 Features
 
 ✅ User-friendly and responsive UI
+
 ✅ Secure user authentication and authorization
+
 ✅ Book appointments with healthcare professionals
+
 ✅ knowing the timetable and schedule of doctors 
+
 ✅ provide qualification of doctors 
+
 ✅ Health blog and educational articles
+
 ✅ contact page , direct connect to the hospital 
+
 ✅ blood bank availability
 
 
 
 
-🛠️ Tech Stack
+# 🛠 Tech Stack
 
 Frontend:
 HTML , CSS & JS
@@ -34,7 +41,7 @@ host:
 Netliify
 
 
-🚀 Usage
+# 🚀 Usage
 
 Sign up as a patient .
 Choose your doctors .
@@ -46,7 +53,7 @@ Blood bank information.
 
 
 
-📸 Screenshots 
+# 📸 Screenshots 
 
 Desktop preview:-
 
@@ -71,12 +78,14 @@ Log-in page
 
 ![Screenshot 2025-03-09 190205](https://github.com/user-attachments/assets/4ec185c8-7743-4ec8-9484-04ee18311651)
 
-
-📞 Contact
+# 📞 Contact
 
 👤 Rashmiranjan shaw
 
-LinkedIn:  
-GitHub: @yourusername
-Email: your.email@example.com
-Project Link: 
+LinkedIn: 
+
+GitHub: https://github.com/Rashmiranjan07
+
+Email: heyyrashmiranjan02@gmail.com
+
+Project Link: https://github.com/yourusername/health-hub
