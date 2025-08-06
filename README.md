@@ -26,7 +26,6 @@ Health-Hub is an all-in-one healthcare management website that bridges the gap b
 
 
 
-
 # 🛠 Tech Stack
 
 Frontend:
