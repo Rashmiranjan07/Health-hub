@@ -25,7 +25,6 @@ Health-Hub is an all-in-one healthcare management website that bridges the gap b
 ✅ blood bank availability
 
 
-
 # 🛠 Tech Stack
 
 Frontend:
